@@ -16,7 +16,8 @@ function Header() {
               <li>Home</li>
               <li>TVShows</li>
               <li>Movies</li>
-              <li>Latest</li>
+              <li>Games</li>
+              <li>New & Popular</li>
               <li>MyList</li>
               <li>Browse by Languages</li>
             </ul>
@@ -24,6 +25,7 @@ function Header() {
           <div className="header_right">
               <ul> 
                   <li><SearchIcon /></li>
+                  <li>Kids</li>
                   <li><NotificationsNoneIcon /></li>
                   <li><AccountBoxIcon /></li>
                   <li><ArrowDropDownIcon /></li>
