@@ -4,24 +4,27 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./Footer.css";
-
-function Footer () {
+const Footer = () => {
   return (
-    <div className="footer_outer_container">
-      <div className="footer_inner_container">
+    <div className="footer-outer-container">
+      <div className="footer-inner-container">
         <div className="footer-icons">
           <FacebookOutlinedIcon />
           <InstagramIcon />
-          <TwitterIcon/>
+          <TwitterIcon />
           <YouTubeIcon />
         </div>
-        <div className="footer_data">
-          <ul>
-            <li>Audio Description</li>
-            <li>Investor Relations</li>
-            <li>Legal Notice</li>
-          </ul>
-          <div>
+
+        <div className="footer-data">
+          <div className="footer_column">
+            <ul>
+              <li>Audio Description</li>
+              <li>Investor Relations</li>
+              <li>Legal Notice</li>
+            </ul>
+          </div>
+
+          <div className="footer_column">
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
@@ -29,7 +32,8 @@ function Footer () {
               <li>Do Not Sell Or Share My Personal Information</li>
             </ul>
           </div>
-          <div>
+
+          <div className="footer_column">
             <ul>
               <li>Gift Cards</li>
               <li>Netflix Shop</li>
@@ -37,7 +41,8 @@ function Footer () {
               <li>Ad Choices</li>
             </ul>
           </div>
-          <div>
+
+          <div className="footer_column">
             <ul>
               <li>Media Center</li>
               <li>Terms of Use</li>
@@ -45,15 +50,69 @@ function Footer () {
             </ul>
           </div>
         </div>
-        <div className="service_code">
+
+        <div className="service-code">
           <p>Service Code</p>
         </div>
         <div className="copy-write">&copy;1997-2025 Netflix, Inc.</div>
-        <div>
-        </div>
       </div>
     </div>
   );
 };
 
 export default Footer;
+
+
+
+// function Footer () {
+//   return (
+//     <div className="footer_outer_container">
+//       <div className="footer_inner_container">
+//         <div className="footer-icons">
+//           <FacebookOutlinedIcon />
+//           <InstagramIcon />
+//           <TwitterIcon/>
+//           <YouTubeIcon />
+//         </div>
+//         <div className="footer_data">
+//           <ul>
+//             <li>Audio Description</li>
+//             <li>Investor Relations</li>
+//             <li>Legal Notice</li>
+//           </ul>
+//           <div>
+//             <ul>
+//               <li>Help Center</li>
+//               <li>Jobs</li>
+//               <li>Legal Notices</li>
+//               <li>Do Not Sell Or Share My Personal Information</li>
+//             </ul>
+//           </div>
+//           <div>
+//             <ul>
+//               <li>Gift Cards</li>
+//               <li>Netflix Shop</li>
+//               <li>Cookie Preferences</li>
+//               <li>Ad Choices</li>
+//             </ul>
+//           </div>
+//           <div>
+//             <ul>
+//               <li>Media Center</li>
+//               <li>Terms of Use</li>
+//               <li>Corporate Information</li>
+//             </ul>
+//           </div>
+//         </div>
+//         <div className="service_code d-md-flex">
+//           <p>Service Code</p>
+//         </div>
+//         <div className="copy-write d-md-flex">&copy;1997-2025 Netflix, Inc.</div>
+//         <div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Footer;
