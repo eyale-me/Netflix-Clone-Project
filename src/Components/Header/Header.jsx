@@ -70,7 +70,6 @@ function Header() {
             <li>
               <SearchIcon />
             </li>
-            <li>Kids</li>
             <li>
               <NotificationsNoneIcon />
             </li>
