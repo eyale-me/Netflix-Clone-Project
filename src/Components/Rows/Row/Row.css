@@ -8,14 +8,14 @@
     object-fit: contain;
     max-height: 100px;
     transition: transform 450ms;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
   
   .row_posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   .row_posters::-webkit-scrollbar {
@@ -31,7 +31,7 @@
   }
   /* 23 */
   .row_posterLarge:hover {
-    transform: scale(1.09);
+    transform: scale(1.02);
   }
   
   /* 26 */
@@ -55,7 +55,7 @@ font-size: 1.875rem;
   }
 
   .row_poster {
-    width: 140px;
+    width: 100%;
     max-height: 90px;
   }
 

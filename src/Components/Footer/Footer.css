@@ -53,17 +53,16 @@
 }
 
 .service-code {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   border: 1px solid white;
   width: auto;
-  padding: 10px 15px;
-  margin: 20px 0; /* Increased margin */
+  padding: 0 15px;
   cursor: pointer;
   width: auto;
   margin: 20px 0;
-  padding: 1px 5px;
+  font-size: 10px;
 }
 
 .copy-right {
@@ -98,11 +97,13 @@
   }
 
   .service-code {
-    width: 50%;
     /* margin: 15px 0; */
   }
 
   .copy-right {
     text-align: center; /* Center copyright on smaller screens */
   }
+}
+p{
+  margin: 0 !important;
 }

@@ -58,7 +58,8 @@ function Header() {
             <li>Home</li>
             <li>TV Shows</li>
             <li>Movies</li>
-            <li>Latest</li>
+            <li>Games</li>
+            <li>New & Popular</li>
             <li>My List</li>
             <li className="browse-language">Browse by language</li>
           </ul>
@@ -69,6 +70,7 @@ function Header() {
             <li>
               <SearchIcon />
             </li>
+            <li>Kids</li>
             <li>
               <NotificationsNoneIcon />
             </li>
