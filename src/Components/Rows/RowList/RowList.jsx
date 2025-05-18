@@ -10,7 +10,7 @@ function RowList() {
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={request.fetchNetflixOriginals}
-        isLargeRow={true}
+        isLargeRow={false}
       />
       <Row
         title="Trending Now"
@@ -50,12 +50,12 @@ function RowList() {
       <Row
         title="Science Fiction"
         fetchUrl={request.fetchScienceFictionMovies}
-        isLargeRow={true}
+        isLargeRow={false}
       />
       <Row 
           title="Tv show"
           fetchUrl={request.fetchTVShow}
-          isLargeRow={true}
+          isLargeRow={false}
           />
     </>
   );
